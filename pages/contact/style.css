@@ -7,6 +7,11 @@ body{
     margin: 0;
     padding: 0;
 }
+.container{
+    display: flex;
+}
+
+
 .formulario{
     display: flex;
     margin: 10vh auto;
@@ -14,10 +19,9 @@ body{
     width: 25vw;
     flex-direction: column;
     background-color: #6f24d1d5;
-    
+    border-radius: 15px;
     text-align: center;
     color: white;
-
 }
 .formulario:hover{
     box-shadow: 5px 5px 5px rgb(114, 113, 113);
@@ -33,8 +37,50 @@ body{
 .formulario > *:not(label):focus{
     transform: scale(1.05);
 }
-.formFull{
+.formulario > input[type="text"]{
+    text-align: center;
+}
 
+.messages{
+    display: none;
+    margin: 10vh auto;
+    background-color: rgba(218, 209, 209, 0.822);
+}
+.mensagem{
+    background-color: red;
+    margin:10vh auto;
+    width: 200px;
+    height: 200px;
+}
+
+.formFull{
+   display: flex;
+    margin: 10vh auto;
+    padding: 3%;
+    width: 25vw;
+    flex-direction: column;
+    background-color: #6f24d1d5;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+}
+
+.formFull:hover{
+    box-shadow: 5px 5px 5px rgb(114, 113, 113);
+    transition: 0.5s;
+}
+.formFull > *{
+    padding: 10px 0px;
+}
+.formFull > *:not(label):hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+.formFull > *:not(label):focus{
+    transform: scale(1.05);
+}
+.formFull > input[type="text"]{
+    text-align: center;
 }
 #send{
     margin:30px 0px;
