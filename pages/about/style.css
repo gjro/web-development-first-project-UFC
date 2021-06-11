@@ -1,0 +1,77 @@
+/*Estilos gerais*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+body, h1, h2, p, ul, li, a {
+        margin: 0px;
+        padding: 0px;
+        
+}
+
+/*introducao*/
+
+.introduction {
+    padding: 20vh;
+}
+
+.introduction h1 {
+    font-size: 50px;
+    margin-right: 65vh;
+    margin-bottom: 10vh;
+}
+
+.introduction p{
+    margin-right: 110vh;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/*Sobre*/
+
+.about {
+    margin: 0 20vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.about .about-text {
+    margin-right: 30vh;
+}
+
+.about .about-text h2 {
+    font-size: 40px;
+    margin-bottom: 5vh;
+}
+
+.about .about-text p {
+    margin-bottom: 5vh;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.about .about-img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*Time*/
+
+.team {
+    margin: 20vh;
+}
+
+.team h2 {
+    font-size: 40px;
+    margin-bottom: 20vh;
+}
+
+.team .team-members {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team .team-members .team-member img {
+    margin-bottom: 3vh;
+}
