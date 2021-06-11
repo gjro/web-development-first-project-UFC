@@ -8,17 +8,23 @@
     <title>Contato</title>
 </head>
 <body>
-    <form class="formulario" action="POST">
-        <label for="nome">Nome</label>
-        <input type="text" name="nome" id="name">
-        <label for="assunto"> assunto</label>
-        <input type="text" name="assunto" id="subject">
-        <label for="mensagem"> mensagem</label>
-        <textarea name="mensagem" placeholder="Digite aqui" id="message" cols="30" rows="5" ></textarea>
-        <input type="button" name="Enviar" value="Enviar" id="send">
-    </form>
-    <script src="./script.js">
-
-    </script>
+    <div class="container">
+        <form class="formulario"  id="form">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="name">
+            <label for="assunto"> assunto</label>
+            <input type="text" name="assunto" id="subject">
+            <label for="mensagem"> mensagem</label>
+            <textarea name="mensagem" placeholder="Digite aqui" id="message" cols="30" rows="5" style="resize: none;"></textarea>
+            <input type="button" name="Enviar" value="Enviar" id="send">
+        </form>
+        
+        <div class="messages" id="messageContainer">
+    
+        </div>
+    </div>
+    
+    
+    <script src="./script.js"></script>
 </body>
 </html>
