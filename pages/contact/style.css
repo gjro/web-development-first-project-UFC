@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.formulario{
+    display: flex;
+    margin: 10vh auto;
+    padding: 3%;
+    width: 25vw;
+    flex-direction: column;
+    background-color: #6f24d1d5;
+    
+    text-align: center;
+    color: white;
+
+}
+.formulario:hover{
+    box-shadow: 5px 5px 5px rgb(114, 113, 113);
+    transition: 0.5s;
+}
+.formulario > *{
+    padding: 10px 0px;
+}
+.formulario > *:not(label):hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+.formulario > *:not(label):focus{
+    transform: scale(1.05);
+}
+.formFull{
+
+}
+#send{
+    margin:30px 0px;
+}
