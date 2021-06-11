@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Montserrat";
 }
 
 .header {
@@ -27,6 +28,7 @@
 
 #destaque #left, #right{
     width: 50%;
+    align-self: center;
 }
 
 #destaque #left p {
@@ -34,6 +36,27 @@
     color: white;
     font-family: 'Montserrat';
     font-size: 24px;
+}
+
+#destaque #left input {
+    background-color: #6E24D1;
+    border: none;
+    border-bottom: white solid 2px;
+    width: 65%;
+    color: white;
+    font-size: 20px;
+    line-height: 1.5em;
+    margin-right: 5px 10px;
+}
+
+#destaque #left button {
+    background-color: transparent;
+    border-color: white;
+    border-radius: 20px;
+    color: white;
+    width: 30%;
+    height: 35px;
+    font-size: 16px;
 }
 
 #destaque #rigth {
