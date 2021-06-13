@@ -37,13 +37,15 @@ btn.onclick = function (){
     let msgNome =document.createElement("h2")
     let msgAssunto=document.createElement("h3")
     let msgTexto=document.createElement("p")
-    msgNome.innerHTML(infos.nome)
-    msgAssunto.innerHTML(infos.assunto)
-    msgTexto.innerHTML(infos.mensagem)
+    msgNome.innerHTML=infos.nome
+    msgAssunto.innerHTML=infos.assunto
+    msgTexto.innerHTML=infos.mensagem
     novaMensagem.appendChild(msgNome)
     novaMensagem.appendChild(msgAssunto)
     novaMensagem.appendChild(msgTexto)
-
+    console.log(msgNome);
+    console.log(msgAssunto);
+    
 
 
     document.getElementById("messageContainer").appendChild(novaMensagem)
