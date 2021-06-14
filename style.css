@@ -140,11 +140,11 @@
     color: #6E24D1;
 }
 
-#section-4 #left img {
+#section-3 #left img {
     width: 450px;
 }
 
-#section-4 #right .number {
+#section-3 #right .number {
     font-size: 36px;
     width: 40px;
     font-weight: bold;
@@ -157,33 +157,33 @@
     line-height: 1.1em;
 }
 
-#section-4 #right {
+#section-3 #right {
     padding: 10px 35px;
 }
 
-#section-4 #right h2 {
+#section-3 #right h2 {
     color: rgb(59, 59, 59);
     font-size: 34px;
     line-height: 1.5em;
 }
 
-#section-4 #right p {
+#section-3 #right p {
     margin: 15px 0;
     color: rgb(59, 59, 59);
     line-height: 1.5em;
 }
 
-#section-4 a {
+#section-3 a {
     color: orange;
     text-decoration: none;
     font-weight: bold;
 }
 
-#section-5 #right img {
+#section-4 #right img {
     width: 450px;
 }
 
-#section-5 #left .number {
+#section-4 #left .number {
     font-size: 36px;
     width: 40px;
     font-weight: bold;
@@ -196,24 +196,107 @@
     line-height: 1.1em;
 }
 
-#section-5 #left {
+#section-4 #left {
     padding: 10px 35px;
 }
 
-#section-5 #left h2 {
+#section-4 #left h2 {
     color: rgb(59, 59, 59);
+    font-size: 34px;
+    line-height: 1.5em;
+}
+
+#section-4 #left p {
+    margin: 15px 0;
+    color: rgb(59, 59, 59);
+    line-height: 1.5em;
+}
+
+#section-4 a {
+    color: purple;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#section-5 {
+    background-color:#6E24D1;
+}
+
+#section-5 #left h2 {
+    color: white;
     font-size: 34px;
     line-height: 1.5em;
 }
 
 #section-5 #left p {
     margin: 15px 0;
-    color: rgb(59, 59, 59);
+    color: white;
     line-height: 1.5em;
 }
 
-#section-5 a {
-    color: purple;
-    text-decoration: none;
+#section-5 #right img {
+    width: 450px;
+}
+
+.container{
+    display: flex;
+    padding: 85px 10%;
+}
+
+.form-container {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 1px 1px 20px;
+    padding: 45px;
+    max-width: 50%;
+    margin: 0 35px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    max-height: 293px;
+}
+
+.formulario, .formFull {
+    display: flex;
+    flex-direction: column;
+    max-height: 293px;
+}
+
+.formulario label, .formFull label {
+    margin-top: 15px;
     font-weight: bold;
+}
+
+.formulario #send, .formFull #send {
+    margin: 10px 0;
+}
+
+.messages, .messagesFull {
+    color: white;
+    background-color:#6E24D1;
+    border-radius: 4px;
+    box-shadow: 1px 1px 20px black;
+    padding: 45px;
+    width: 350px;
+    max-width: 50%;
+    margin: 0 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mensagem{
+    color: black;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 1px 1px 20px;
+    max-width: 80%;
+    padding: 15px;
+    margin: 8px 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.mensagem button {
+    width: 15px;
 }
