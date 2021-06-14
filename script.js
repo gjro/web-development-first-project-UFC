@@ -79,3 +79,9 @@ btnSend.onclick = ()=>{
         document.getElementById("messageContainer").setAttribute("class","messages");
     }
 }
+
+
+let credit = document.getElementById("cred_btn");
+credit.onclick = () => {
+    alert("Desenvolviment de Software para Web - 2021.1 \n Equipe: Lamec Vasconcelos, Gilberto Júnior e Warton Cabral")
+}

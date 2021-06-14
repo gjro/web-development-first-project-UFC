@@ -262,6 +262,20 @@
     max-height: 293px;
 }
 
+.formulario > input[type="button"], .formFull > input[type="button"]{
+    width: 25%;
+    align-self: center;
+    background-color: #6E24D1;
+    border: none;
+    padding: 10px;
+    color: white;
+    transition: 0.25s;
+}
+
+.formulario > input[type="button"]:hover, .formFull > input[type="button"]:hover{
+    width: 30%;
+}
+
 .formulario label, .formFull label {
     margin-top: 15px;
     font-weight: bold;
@@ -296,6 +310,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     word-wrap: break-word;
+    word-break: break-all;
 }
 
 .mensagem button {
