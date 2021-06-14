@@ -296,6 +296,9 @@
     margin: 0 35px;
     display: flex;
     flex-direction: column;
+    max-height: 293px;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .mensagem{
