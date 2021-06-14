@@ -62,7 +62,7 @@
     font-size: 16px;
 }
 
-#destaque #rigth {
+#destaque #right {
     text-align: center;
 }
 
@@ -104,20 +104,116 @@
     margin: 15px 0;
 }
 
-#section-2{
+#section-2, #section-3, #section-4, #section-5{
     display: flex;
     padding: 85px 10%;
 }
 
-#section-2 #left, #rigth {
+#left, #right {
     width: 50%;
     align-self: center;
+    align-content: center;
 }
 
 #section-2 #left img {
     width: 550px;
 }
 
-#section-2 #rigth {
-    padding: 10px 25px;
+#section-2 #right {
+    padding: 10px 35px;
+}
+
+#section-2 #right h2 {
+    color: rgb(59, 59, 59);
+    font-size: 34px;
+    line-height: 1.5em;
+}
+
+#section-2 #right li {
+    padding: 25px 15px;
+    color: rgb(59, 59, 59);
+    line-height: 1.5em;
+}
+
+#section-2 #right li::marker {
+    font-size: 30px;
+    color: #6E24D1;
+}
+
+#section-4 #left img {
+    width: 450px;
+}
+
+#section-4 #right .number {
+    font-size: 36px;
+    width: 40px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 60px;
+    background-color: #6E24D1;
+    box-shadow:  0px 10px 8px #0000005d;
+    color: white;
+    margin-bottom: 20px;
+    line-height: 1.1em;
+}
+
+#section-4 #right {
+    padding: 10px 35px;
+}
+
+#section-4 #right h2 {
+    color: rgb(59, 59, 59);
+    font-size: 34px;
+    line-height: 1.5em;
+}
+
+#section-4 #right p {
+    margin: 15px 0;
+    color: rgb(59, 59, 59);
+    line-height: 1.5em;
+}
+
+#section-4 a {
+    color: orange;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#section-5 #right img {
+    width: 450px;
+}
+
+#section-5 #left .number {
+    font-size: 36px;
+    width: 40px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 60px;
+    background-color: aquamarine;
+    box-shadow:  0px 10px 8px #0000005d;
+    color: white;
+    margin-bottom: 20px;
+    line-height: 1.1em;
+}
+
+#section-5 #left {
+    padding: 10px 35px;
+}
+
+#section-5 #left h2 {
+    color: rgb(59, 59, 59);
+    font-size: 34px;
+    line-height: 1.5em;
+}
+
+#section-5 #left p {
+    margin: 15px 0;
+    color: rgb(59, 59, 59);
+    line-height: 1.5em;
+}
+
+#section-5 a {
+    color: purple;
+    text-decoration: none;
+    font-weight: bold;
 }

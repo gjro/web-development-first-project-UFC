@@ -10,10 +10,14 @@
   </head>
   <body>
     <header class="header">
-        <a href="#">
-            <img src="./assets/img/generic-logo.png" width="225px" alt="logomarca">
-        </a>
-     
+      <a href="#">
+        <img
+          src="./assets/img/generic-logo.png"
+          width="225px"
+          alt="logomarca"
+        />
+      </a>
+
       <nav class="navbar">
         <a href="./index.html" title="Home">Home</a>
 
@@ -35,7 +39,7 @@
           <img src="./assets/img/tag-wallet.png" width="135px" alt="" />
         </div>
       </div>
-      <div id="rigth">
+      <div id="right">
         <img src="./assets/img/cellphone.png" width="65%" alt="" />
       </div>
     </div>
@@ -46,99 +50,64 @@
       </h2>
       <div id="button">
         <a href="">Find now</a>
-        <img src="./assets/icons/right-arrow.png" alt="">
+        <img src="./assets/icons/right-arrow.png" alt="" />
       </div>
-      
     </div>
 
     <div id="section-2">
       <div id="left">
         <img src="./assets/img/banking-finance.png" alt="" />
       </div>
-      <div id="rigth">
-        <h3>Access the money you're already earnt instantly.</h3>
+      <div id="right">
+        <h2>Access the money you're already earnt instantly.</h2>
         <ul>
-          <li>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi,
-            saepe debitis culpa quaerat maxime quo in. Qui, sint sed. Hic
-            commodi minima expedita ipsum temporibus at molestias, quidem
-            suscipit a.
+          <li id="item-1" class="item-1">
+            When life happens, why wait 'til pay day? Access up to a quarter of
+            your wage each pay cycle with MyPayNow.
           </li>
-          <li>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam
-            maiores velit corporis? Quisquam, eos est! Porro maiores consequatur
-            sint a labore excepturi aliquid? Ratione suscipit dignissimos at
-            perspiciatis molestiae numquam!
+          <li id="item-2">
+            With real-time deposits, you can get the cash you need to get back
+            on track in just 60 seconds! Whatever
           </li>
-          <li>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et,
-            cupiditate quasi aspernatur alias optio autem recusandae, explicabo
-            laudantium perspiciatis repellendus vitae eum, ratione totam dolore
-            tempora deleniti quibusdam ullam voluptatum.
+          <li id="item-3">
+            Your situation, we've got your covered.
           </li>
         </ul>
       </div>
     </div>
 
-    <div id="section-3">
-      <div id="left">
-        <ol>
-          <li>Create account</li>
-          <li>Get Your Money</li>
-          <li>Repay and repeat</li>
-        </ol>
-        <button>Learn More</button>
-      </div>
-      <div id="rigth">
-        <img src="" alt="" />
-      </div>
-    </div>
-
     <div id="section-4">
       <div id="left">
-        <img src="" alt="" />
+        <img src="./assets/img/img-1.png" alt="" />
       </div>
-      <div id="rigth">
-        <p>01</p>
-        <h3>Get your money in under a minute</h3>
+      <div id="right">
+        <p class="number">01</p>
+        <h2>Get your money in under a minute</h2>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum
           commodi, incidunt nobis accusantium est voluptatum similique fugit
           sequi asperiores, minus ullam ipsa repellat error perferendis mollitia
           nam corporis facere aliquid!
         </p>
-        <button>DATA DRIVE</button>
+        <a href="">DATA DRIVE</a>
       </div>
     </div>
 
     <div id="section-5">
       <div id="left">
-        <p>02</p>
-        <h3>One flat rate. No hidden fees or annoying interest. Ever</h3>
+        <p class="number">02</p>
+        <h2>One flat rate. No hidden fees or annoying interest. Ever</h2>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum
           commodi, incidunt nobis accusantium est voluptatum similique fugit
           sequi asperiores, minus ullam ipsa repellat error perferendis mollitia
           nam corporis facere aliquid!
         </p>
-        <button>DATA DRIVE</button>
+        <a href="">DATA DRIVE</a>
       </div>
       <div id="right">
-        <img src="" alt="" />
-      </div>
-      <button>Calculate how much you can get</button>
-    </div>
-
-    <div id="section-6">
-      <p>I get paid: R$450,00</p>
-
-      <p>Every</p>
-      <a href=""> Week</a>
-      <a href="">Fortnight</a>
-      <a href="">Month</a>
-      <div>
-        <h3>You can access up to R$230,00 per week!</h3>
-        <img src="" alt="" />
+        <img src="./assets/img/img-2.png" alt="" />
+        <button>Calculate how much you can get</button>
       </div>
     </div>
 
@@ -150,11 +119,36 @@
           <img src="" alt="" />
           <img src="" alt="" />
         </div>
-        <div id="rigth">
+        <div id="right">
           <img src="" alt="" />
         </div>
       </div>
     </div>
+
+    <div class="container">
+      <div class="form-container">
+        <form class="formulario" id="form">
+          <label for="nome">Nome</label>
+          <input type="text" name="nome" id="name" />
+          <label for="assunto"> assunto</label>
+          <input type="text" name="assunto" id="subject" />
+          <label for="mensagem"> mensagem</label>
+          <textarea
+            name="mensagem"
+            placeholder="Digite aqui"
+            id="message"
+            cols="30"
+            rows="5"
+            style="resize: none"
+          ></textarea>
+          <input type="button" name="Enviar" value="Enviar" id="send" />
+        </form>
+      </div>
+
+      <div class="messages" id="messageContainer"></div>
+    </div>
+
+    <script src="./script.js"></script>
 
     <div id="footer">
       <div id="left">
