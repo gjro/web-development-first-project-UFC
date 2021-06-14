@@ -16,7 +16,7 @@ body, h1, h2, p, ul, li, a {
     background-color: #6E24D1;
     justify-content: space-evenly;
     align-items: center;
-    padding: 15px 10%;
+    padding: 21px 10%;
 }
 
 .navbar a {
@@ -30,25 +30,29 @@ body, h1, h2, p, ul, li, a {
 /*introducao*/
 
 .introduction {
-    padding: 20vh;
+    padding: 15vh 10vw;
+    background-color: #6E24D1;
+    margin-bottom: 15vh;
 }
 
 .introduction h1 {
-    font-size: 50px;
-    margin-right: 65vh;
+    font-size: 64px;
+    color: white;
+    margin-right: 35vw;
     margin-bottom: 10vh;
 }
 
 .introduction p{
     margin-right: 110vh;
+    color: white;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 /*Sobre*/
 
 .about {
-    margin: 0 20vh;
+    margin: 0 10vw;
     display: flex;
     flex-direction: row;
 }
@@ -76,7 +80,7 @@ body, h1, h2, p, ul, li, a {
 /*Time*/
 
 .team {
-    margin: 20vh;
+    margin: 10vw;
 }
 
 .team h2 {
