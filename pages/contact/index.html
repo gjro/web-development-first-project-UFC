@@ -1,36 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Contato</title>
-</head>
-<body>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <img
+          src="../../assets/img/generic-logo.png"
+          width="225px"
+          alt="logomarca"
+        />
+      </a>
+
+      <nav class="navbar">
+        <a href="../../index.html" title="Home">Home</a>
+
+        <a href="../about/index.html" title="About">About</a>
+
+        <a href="./index.html" title="Contact">Contact</a>
+      </nav>
+    </header>
 
     <div class="container">
-        <div class="form-container">
+      <div class="form-container">
+        <form class="formulario" id="form">
+          <label for="nome">Nome</label>
+          <input type="text" name="nome" id="name" />
+          <label for="assunto"> assunto</label>
+          <input type="text" name="assunto" id="subject" />
+          <label for="mensagem"> mensagem</label>
+          <textarea
+            name="mensagem"
+            placeholder="Digite aqui"
+            id="message"
+            cols="30"
+            rows="5"
+            style="resize: none"
+          ></textarea>
+          <input type="button" name="Enviar" value="Enviar" id="send" />
+        </form>
+      </div>
 
-            <form class="formulario"  id="form">
-                <label for="nome">Nome</label>
-                <input type="text" name="nome" id="name">
-                <label for="assunto"> assunto</label>
-                <input type="text" name="assunto" id="subject">
-                <label for="mensagem"> mensagem</label>
-                <textarea name="mensagem" placeholder="Digite aqui" id="message" cols="30" rows="5" style="resize: none;"></textarea>
-                <input type="button" name="Enviar" value="Enviar" id="send">
-            </form>
-
-
-        </div>
-        
-        <div class="messages" id="messageContainer">
-    
-        </div>
+      <div class="messages" id="messageContainer"></div>
     </div>
-    
-    
+
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>

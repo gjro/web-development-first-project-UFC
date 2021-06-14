@@ -16,8 +16,10 @@
 }
 
 .navbar a {
-    color: grey;
+    color: white;
     margin: 0 25px;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 #destaque {
@@ -52,7 +54,8 @@
 #destaque #left button {
     background-color: transparent;
     border-color: white;
-    border-radius: 20px;
+    border-radius: 10px;
+    border-width: 1px;
     color: white;
     width: 30%;
     height: 35px;
@@ -68,4 +71,53 @@
     font-size: 64px;
     font-family: 'Montserrat';
     font-weight: bold;
+}
+
+#destaque .tags img {
+    margin: 45px 2px;
+}
+
+#section-1 {
+    text-align: center;
+    padding: 85px 20%;
+}
+
+#section-1 h2 {
+    color: rgb(59, 59, 59);
+    font-size: 34px;
+    line-height: 1.5em;
+}
+
+#section-1 a {
+    padding: 5px;
+    line-height: 5px;
+}
+
+#section-1 img {
+    width: 25px;
+    padding: 5px;
+    border: rgb(59, 59, 59) 1px solid;
+    border-radius: 25px;
+}
+
+#section-1 #button {
+    margin: 15px 0;
+}
+
+#section-2{
+    display: flex;
+    padding: 85px 10%;
+}
+
+#section-2 #left, #rigth {
+    width: 50%;
+    align-self: center;
+}
+
+#section-2 #left img {
+    width: 550px;
+}
+
+#section-2 #rigth {
+    padding: 10px 25px;
 }
