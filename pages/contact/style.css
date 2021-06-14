@@ -47,6 +47,11 @@ body{
 
 .messages{
     display: none;
+}
+
+.messagesFull{
+    display: flex;
+    flex-wrap: wrap;
     margin: 10vh auto;
     padding: 1vw 2vw;
     background-color: #6ffb11b6;
@@ -55,23 +60,26 @@ body{
     border-radius: 15px;
     overflow-y: hidden;
 }
-.messages:hover{
+.messagesFull:hover{
     box-shadow: 5px 5px 5px rgb(114, 113, 113);
     transition: 0.5s;
 }
+
 .mensagem{
     display: flex;
     flex-direction: column;
+    align-content: space-between;
+    align-self: center;
     text-align: center;
     word-wrap: break-word;
     background-color: rgba(255, 255, 255, 0.795);
     margin: 1vh auto;
-    max-width: 400px;
+    width: 90%;
     overflow:auto
 }
 
 .formFull{
-   display: flex;
+    display: flex;
     margin: 10vh auto;
     padding: 3%;
     width: 28vw;
