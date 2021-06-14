@@ -4,127 +4,74 @@
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
 }
-body{
-    margin: 0;
-    padding: 0;
+.contact-container{
+    background-color: #6e24d1;
+    margin: 0 auto;
+    width:70vw;
+    padding: 5vh 0;
+    box-shadow: 2px 2px 2px #ccc;
+}
+.contact-container:hover{
+    box-shadow: 5px 4px 3px rgb(156, 156, 156);
+    transition: 0.3s;
 }
 
-.header {
+.form{
     display: flex;
-    min-height: 60px;
-    background-color: #6E24D1;
-    justify-content: space-evenly;
+    flex-direction: column;
     align-items: center;
-    padding: 15px 10%;
-}
-
-.navbar a {
-    color: white;
-    margin: 0 25px;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.container{
-    display: flex;
-}
-
-.form-container{
-    margin:0 auto;
-}
-.formulario{
-    display: flex;
-    margin: 10vh auto;
-    padding: 3%;
-    width: 30vw;
-    flex-direction: column;
-    background-color: #6f24d1d5;
-    border-radius: 15px;
     text-align: center;
     color: white;
-    box-shadow: 5px 5px 5px rgba(150, 148, 148, 0.692);
 }
-.formulario:hover{
-    box-shadow: 5px 5px 5px rgb(114, 113, 113);
-    transition: 0.5s;
-}
-.formulario > *{
-    padding: 10px 0px;
-}
-.formulario > *:not(label):hover{
-    transform: scale(1.05);
-    transition: 0.5s;
-}
-.formulario > *:not(label):focus{
-    transform: scale(1.05);
-}
-.formulario > input[type="text"]{
+.form > [type="text"]{
+    width: 50%;
+    border-radius: 4px;
     text-align: center;
 }
-
-.messages{
-    display: none;
-}
-
-.messagesFull{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 10vh auto;
-    padding: 1vw 2vw;
-    background-color: #6ffb11b6;
-    box-shadow: 5px 5px 5px rgba(150, 148, 148, 0.692);
-    width: 30vw;
-    border-radius: 15px;
-    overflow-y: hidden;
-}
-.messagesFull:hover{
-    box-shadow: 5px 5px 5px rgb(114, 113, 113);
+.form > [type="text"]:focus{
+    transform: scale(1.1);
     transition: 0.5s;
 }
 
-.mensagem{
-    display: flex;
-    flex-direction: column;
-    align-content: space-between;
-    align-self: center;
+
+.form>:not(input){
+    padding: 1% 0;
+    border-radius: 4px;
     text-align: center;
-    word-wrap: break-word;
-    background-color: rgba(255, 255, 255, 0.795);
-    margin: 1vh auto;
-    width: 90%;
-    overflow:auto
 }
 
-.formFull{
-    display: flex;
-    margin: 10vh auto;
-    padding: 3%;
-    width: 28vw;
-    flex-direction: column;
-    background-color: #6f24d1d5;
-    border-radius: 15px;
-    text-align: center;
-    color: white;
+.form>:not(input):focus{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+#txt-area{
+    width: 50%;
     resize: none;
 }
+#btn-send{
+    margin:3vh 0;
+    width: 25%;
+}
 
-.formFull:hover{
-    box-shadow: 5px 5px 5px rgb(114, 113, 113);
-    transition: 0.5s;
+.contacts-extra{
+    position: relative;
+    top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh 0;
+    background-color: white;
 }
-.formFull > *{
-    padding: 10px 0px;
+.contacts-extra> a{
+    color: black;
+    text-decoration: none;
 }
-.formFull > *:not(label):hover{
-    transform: scale(1.05);
-    transition: 0.5s;
-}
-.formFull > *:not(label):focus{
-    transform: scale(1.05);
-}
-.formFull > input[type="text"]{
-    text-align: center;
-}
-#send{
-    margin:30px 0px;
+.contacts-extra> a:hover{
+    color: #6e24d1;
+    transform: scale(1.2);
+    transition: 0.4s;
+    text-decoration: none;
+
 }

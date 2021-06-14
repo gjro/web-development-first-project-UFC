@@ -1,54 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <title>Contato</title>
-  </head>
-  <body>
-    <header class="header">
-      <a href="#">
-        <img
-          src="../../assets/img/generic-logo.png"
-          width="225px"
-          alt="logomarca"
-        />
-      </a>
-
-      <nav class="navbar">
-        <a href="../../index.html" title="Home">Home</a>
-
-        <a href="../about/index.html" title="About">About</a>
-
-        <a href="./index.html" title="Contact">Contact</a>
-      </nav>
-    </header>
-
-    <div class="container">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Contato</title>
+</head>
+<body>
+    <section class="contact-container">
       <div class="form-container">
-        <form class="formulario" id="form">
+        <form action="" class="form">
           <label for="nome">Nome</label>
-          <input type="text" name="nome" id="name" />
-          <label for="assunto"> assunto</label>
-          <input type="text" name="assunto" id="subject" />
-          <label for="mensagem"> mensagem</label>
-          <textarea
-            name="mensagem"
-            placeholder="Digite aqui"
-            id="message"
-            cols="30"
-            rows="5"
-            style="resize: none"
-          ></textarea>
-          <input type="button" name="Enviar" value="Enviar" id="send" />
+          <input type="text" name="nome" id="name">
+          <label for="assunto">Assunto</label>
+          <input type="text" name="assunto" id="subject">
+          <label for="mensagem">Mensagem</label>
+          <textarea name="" id="txt-area" cols="30" rows="5"></textarea>
+          <button id="btn-send">Enviar</button>
         </form>
       </div>
+      
+      <div class="contacts-extra">
+        <a href="tel:85-94002-8922">Ligue-nos</a>
+        <p>ou</p>
+        <a href="mailto:verifone@gmail.com">email</a>
+      </div>
 
-      <div class="messages" id="messageContainer"></div>
-    </div>
 
-    <script src="./script.js"></script>
-  </body>
+    </section>
+</body>
 </html>
